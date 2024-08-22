@@ -89,10 +89,10 @@ class ProductoController
     public static function eliminarAPI()
     {
 
-        $id = filter_var($_POST['producto_id'], FILTER_SANITIZE_NUMBER_INT);
+        $producto_id = filter_var($_POST['producto_id'], FILTER_SANITIZE_NUMBER_INT);
         try {
 
-            $producto = Producto::find($id);
+            $producto = Producto::find($producto_id);
             // $producto->sincronizar([
             //     'situacion' => 0
             // ]);
