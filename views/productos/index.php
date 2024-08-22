@@ -29,18 +29,7 @@
 </div>
 <div class="row">
     <div class="col table-responsive">
-        <table class="table table-bordered table-hover" id="tablaProductos">
-            <thead>
-                <tr>
-                    <th>NO.</th>
-                    <th>Nombre</th>
-                    <th>Precio</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
+        <table class="table table-bordered table-hover w-100" id="tablaProductos">
         </table>
     </div>
 </div>
